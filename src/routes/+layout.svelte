@@ -9,4 +9,10 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children?.()}
+<div class="min-h-screen flex flex-col">
+<!--  // headerを書く -->
+    <main class="flex-1">
+        {@render children?.()}
+    </main>
+        <!-- // footerを書く -->
+</div>
