@@ -93,34 +93,73 @@
   <!-- SCHEDULE -->
   <section class="max-w-7xl mx-auto py-16 px-6">
     <h2 class="text-2xl font-bold mb-6">SCHEDULE</h2>
-   <table class="w-full table-fixed border-collapse">
-  <thead>
-    <tr class="text-gray-400 border-b border-gray-600">
-      <th class="pb-3 w-1/4 text-center">TIME</th>
-      <th class="pb-3 w-1/4 text-center">STAGE</th>
-      <th class="pb-3 w-1/4 text-center">TEAM</th>
-      <th class="pb-3 w-1/4 text-center">TICKET</th>
-    </tr>
-  </thead>
-  <tbody>
-    {#each tickets as t}
-      <tr class="border-t border-gray-700 hover:bg-white/5 transition">
-        <td class="py-3 text-center">{t.time}</td>
-        <td class="text-center">{t.stage}</td>
-        <td class="text-center">{t.team}</td>
-        <td class="text-center">
-          <span class="px-3 py-1 rounded bg-yellow-400 text-black font-bold shadow-[0_0_10px_#ffff00]">
-            {t.price}
-          </span>
-        </td>
-      </tr>
-    {/each}
-  </tbody>
-</table>
+    <table class="w-full table-fixed border-collapse">
+      <thead>
+        <tr class="text-gray-400 border-b border-gray-600">
+          <th class="pb-3 w-1/4 text-center">TIME</th>
+          <th class="pb-3 w-1/4 text-center">STAGE</th>
+          <th class="pb-3 w-1/4 text-center">TEAM</th>
+          <th class="pb-3 w-1/4 text-center">TICKET</th>
+        </tr>
+      </thead>
+      <tbody>
+        {#each tickets as t}
+          <tr class="border-t border-gray-700 hover:bg-white/5 transition">
+            <td class="py-3 text-center">{t.time}</td>
+            <td class="text-center">{t.stage}</td>
+            <td class="text-center">{t.team}</td>
+            <td class="text-center">
+              <span class="px-3 py-1 rounded bg-yellow-400 text-black font-bold shadow-[0_0_10px_#ffff00]">
+                {t.price}
+              </span>
+            </td>
+          </tr>
+        {/each}
+      </tbody>
+    </table>
+  </section>
 
+  <!-- AUDIENCE -->
+  <section class="max-w-7xl mx-auto py-16 px-6 text-center">
+    <h2 class="text-2xl font-bold mb-6">for AUDIENCE</h2>
+    <div class="flex justify-center">
+      <img 
+  src="/audience.png" 
+  alt="Audience Section" 
+  class="rounded-xl shadow-[0_0_40px_#a855f7] max-w-full md:max-w-5xl"
+/>
+
+    </div>
+    <div class="mt-6 text-center space-y-2">
+  <p class="text-lg font-semibold text-white">
+    🚀 ここから参加できます
+  </p>
+  <p class="text-lg font-semibold text-white">
+    💬🔥メッセージを入力して盛り上げよう
+  </p>
+</div>
+
+ <!-- 🎆 特殊演出のお知らせ -->
+    <div class="mt-10">
+      <h3 
+        class="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text 
+               bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 
+               animate-pulse drop-shadow-[0_0_20px_#ff00ff]"
+      >
+         スタンプで特殊演出が発生！？
+      </h3>
+    </div>
 
   </section>
 
 </div>
-STAGEを右に寄せたいコードお願い
 
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGxYL3L-LQ/O6d_0UTM6Tt7Ceh2rHHxYQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+Hideyasu Yamaguchiさんによる<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGxYL3L-LQ&#x2F;O6d_0UTM6Tt7Ceh2rHHxYQ&#x2F;view?utm_content=DAGxYL3L-LQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">関西ビギナーズハッカソン vol.6 team7 発表</a>
